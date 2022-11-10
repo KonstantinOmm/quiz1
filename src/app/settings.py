@@ -146,7 +146,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
-EMAIL_PORT = 1025
+# INTERNAL_IPS = [
+#     "127.0.0.1"
+# ]
+
+EMAIL_PORT = 1055
 
 AUTH_USER_MODEL = 'accounts.User'
 LOGIN_REDIRECT_URL = reverse_lazy('index')
